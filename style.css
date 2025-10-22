@@ -1,0 +1,25 @@
+body{
+    color:rgb(164, 150, 245);
+    background:rgb(120, 18, 204);
+    margin: 0px;
+    font-family: "Ewert", sans-serif;
+}
+header{
+    border-bottom: solid 5px black;
+    padding: 20px;
+    font-size: 32px ;
+    color: rgb(164, 150, 245);
+}
+
+section{ 
+    background: blue;
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.chamado-texto{ 
+ margin-right: 5%;
+ }
