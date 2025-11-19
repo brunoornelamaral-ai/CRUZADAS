@@ -3,6 +3,7 @@ body{
     background:rgb(120, 18, 204);
     margin: 0px;
     font-family: "Ewert", sans-serif;
+    margin-bottom: 100px;
 }
 header{
     border-bottom: solid 5px black;
@@ -29,9 +30,7 @@ header{
  p{
     font-size: 20px;
  }
- img{
-    height: 200px;
- }
+ 
  .categoria-videos{
     display:flex;
     overflow-x: auto;
@@ -40,4 +39,17 @@ header{
  .categoria{
     padding-left: 20px;
     padding-right: 20px;
+    margin-top: 50px;
+ }
+
+ .categoria-videos img{
+   opacity: 0.5;
+   height: 200px;
+ }
+ .categoria-videos img:hover{
+   opacity: 1.0;
+   border:1px solid yellow;
+ }
+  .categoria h2{
+ color: yellow
  }
